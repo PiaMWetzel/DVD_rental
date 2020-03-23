@@ -1,4 +1,9 @@
 <?php
+    //hides errors that would otherwise be displayed, comment out for debugging purposes
+    ini_set('display_errors', 1);
+    ini_set('display_startup_errors', 1);
+    error_reporting(E_ALL);
+
     $server = "localhost";
     $uname = "349-project1";
     $pass = "pass";
