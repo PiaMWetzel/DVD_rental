@@ -19,10 +19,10 @@ function searchTitles() {
 
         while($row = mysqli_fetch_assoc($result)) {
             ?>
-                <div class="container p-3 my-2 bg-light border rounded">
+                <div class="container p-3 my-2 bg-white border rounded">
                     <div class="row">
                         <div class="col-sm-3 offset-sm-1">
-                            <a href=<?php echo "review.php?movie_id=" . $row['movie_id'] ?>><img src="<?php echo $row['movie_thumb']?>" class="img-thumbnail" alt="result-thumb"></a>
+                            <a href=<?php echo "detail.php?m_id=" . $row['movie_id'] ?>><img src="<?php echo $row['movie_thumb']?>" class="img-thumbnail" alt="result-thumb"></a>
                         </div>
 
                         <div class="col-sm-7">

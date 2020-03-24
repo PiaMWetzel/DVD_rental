@@ -196,5 +196,10 @@ border-radius: 10px;
     
 }
 
+.brand-img
+{
+    max-height: 25px;
+}
+
 
 
