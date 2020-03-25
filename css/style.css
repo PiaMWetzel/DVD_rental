@@ -93,6 +93,7 @@ border-radius: 10px;
 {
     min-width: 300px;
     padding: 10px;
+    margin: auto;
     text-align: center;
 }
 
@@ -122,4 +123,25 @@ border-radius: 10px;
     
 }
 
+/*#####Mobile Styles######*/
+@media (max-width: 1067px) {
+
+    .user-review-review
+    {
+        min-width: 60%;
+    }
+    
+    .user-review-rating
+    {
+        position: relative;
+    }
+    
+    
+    .txtCenter
+    {
+    margin-left: 100px;
+    }
+
+}
+/*#####Mobile Styles######*/
 

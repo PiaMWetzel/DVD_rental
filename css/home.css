@@ -25,6 +25,7 @@ h6 {
     text-align: center;
 }
 
+
   
   *, *:before, *:after {
     box-sizing: inherit;
@@ -53,7 +54,11 @@ h6 {
   .container {
     padding: 0 16px;
     width: 100%;
-    padding-top: 4%;
+  }
+
+  .nava{
+      padding: 0 16px;
+      width: 100%;
   }
   
   .container::after, .row::after {
@@ -89,7 +94,7 @@ h6 {
 
 
 /*#####Mobile Styles######*/
-@media (max-width: 767px) {
+@media (max-width: 1067px) {
 
     .card{
         width: 250px;

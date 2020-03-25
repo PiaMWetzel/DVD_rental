@@ -7,19 +7,21 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/home.css">
     <title>Blockbluster</title>
   </head>
   <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light ">
+  <!--<nav class="navbar navbar-expand-lg navbar-light">
     <a class="navbar-brand" href="#">Blockbluster</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
   
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav mr-auto navtitle">
         <li class="nav-item active">
           <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
         </li>
@@ -38,7 +40,31 @@
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
       </form>
     </div>
-  </nav>
+  </nav> -->
+
+      <!-- navbar -->
+      <nav class="navbar navbar-toggleable-sm bg-info navbar-inverse">
+        <div class="nava">
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="home.html">Home</a>
+                    <a class="nav-item nav-link" href="review.html">Reviews</a>
+                    <a class="nav-item nav-link" href="about.html">About Us</a>
+                    <a class="nav-item nav-link" href="signup_login.html">Sign Up</a>
+                    <a class="nav-item nav-link" href="signup_login.html">Sign In</a>
+                    <a class="nav-item nav-link" href="#">Search</a>
+                    <form class="form-inline my-2 my-lg-0">
+                      <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+       
+    </nav>
 
 
   <div class="container">
@@ -51,9 +77,12 @@
       <div class="col">
        
       </div>
+
+      
       <div class="col img-container dvd">
        <img class = "img-dvd" src="assets/images/itonya.png" alt="">
       </div>
+      
       <div class="col">
         <input type = "image" class = "button-review" src = "assets/images/rentButton.png"/>
         
@@ -93,14 +122,13 @@
         <div class = "col"></div>
         
     </div>
+  </div>
 
-
+  
+  <div class = "container container-user-review">
     <div class="row divider">
         <span>User Reviews: (2)</span>
     </div>
-  </div>
-
-  <div class = "container container-user-review">
       <div class="row user-review - a">
           <div class="col user-review-name">Jim Bob</div>
           <div class="col user-review-review"><p>Great docu drama with some fine performances. This is a true story of what happens when a very talented athlete from the wrong side of the tracks is saddled with a dodgy husband and the mother from hell.</p></div>
@@ -113,8 +141,69 @@
         <div class="col user-review-rating">5x <img class = "img-star" src="assets/images/star.png"/></div>
     </div>
   </div>
-<div style = "height:400px"></div>
-</div>
+
+  <!--if you need the code below uncomment it but it left a big gap between footer-->
+  <!--<div style = "height:400px"></div> -->
+
+  
+     <!-- Footer -->
+  <footer class="page-footer font-small unique-color-dark">
+  
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left mt-5">
+  
+      <!-- Grid row -->
+      <div class="row mt-3">
+  
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+  
+          <!-- Content -->
+          <h6 class="text-uppercase font-weight-bold">Blockbuster</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>Our dream is to bring amazing movies to your doorstep.</p>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+  
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+            <a href="#!" class="footAcc">Your Account</a>
+          </p>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+  
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Contact</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+            <i class="fas fa-home mr-3"></i> Fullerton, CA 92831, US</p>
+          <p>
+            <i class="fas fa-envelope mr-3"></i> emanuelcarmona714@outlook.com</p>
+          <p>
+            <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+  
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row -->
+  
+    </div>
+    <!-- Footer Links -->
+  
+  </footer>
+  <!-- Footer -->
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
